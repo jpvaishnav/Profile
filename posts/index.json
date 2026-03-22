@@ -14,5 +14,13 @@
         "date": "2026-03-18",
         "tags": ["docker", "dotnet", "devops"],
         "excerpt": "Learn how to containerize a .NET application with Docker using multi-stage builds for optimal image size."
+    },
+    {
+        "slug": "test_post.md",
+        "title": "Docker Basics: Containerize Your .NET App",
+        "category": "tutorials",
+        "date": "2026-03-18",
+        "tags": ["docker", "dotnet", "devops"],
+        "excerpt": "Learn how to containerize a .NET application with Docker using multi-stage builds for optimal image size."
     }
 ]
