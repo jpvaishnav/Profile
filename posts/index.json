@@ -14,21 +14,5 @@
         "date": "2026-03-18",
         "tags": ["docker", "dotnet", "devops"],
         "excerpt": "Learn how to containerize a .NET application with Docker using multi-stage builds for optimal image size."
-    },
-    {
-        "slug": "git-interactive-rebase",
-        "title": "TIL: Git Interactive Rebase",
-        "category": "til",
-        "date": "2026-03-15",
-        "tags": ["git", "til"],
-        "excerpt": "How to use git interactive rebase to clean up commit history before creating pull requests."
-    },
-    {
-        "slug": "cicd-pipeline-design",
-        "title": "CI/CD Pipeline Design Principles",
-        "category": "devops",
-        "date": "2026-03-10",
-        "tags": ["devops", "ci-cd", "best-practices"],
-        "excerpt": "Key principles for designing CI/CD pipelines that are fast, reliable, and maintainable."
     }
 ]
