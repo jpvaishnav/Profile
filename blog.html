@@ -60,34 +60,18 @@
         </div>
     </section>
 
-    <!-- New Post Section (for writing new posts via the UI) -->
+    <!-- How to Add Posts -->
     <section class="section section-alt" id="newPost">
-        <div class="container">
-            <h2 class="section-title">Write a New Post</h2>
-            <form class="post-form" id="postForm">
-                <div class="form-group">
-                    <label for="postTitle">Title</label>
-                    <input type="text" id="postTitle" required maxlength="200" placeholder="e.g., Understanding Async/Await in C#">
-                </div>
-                <div class="form-group">
-                    <label for="postCategory">Category</label>
-                    <select id="postCategory" required>
-                        <option value="concepts">Concepts</option>
-                        <option value="tutorials">Tutorials</option>
-                        <option value="til">TIL (Today I Learned)</option>
-                        <option value="devops">DevOps</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="postContent">Content (Markdown supported)</label>
-                    <textarea id="postContent" rows="12" required placeholder="Write your learning notes here...&#10;&#10;You can use **bold**, *italic*, `code`, and ```code blocks```."></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="postTags">Tags (comma separated)</label>
-                    <input type="text" id="postTags" placeholder="e.g., csharp, async, dotnet" maxlength="500">
-                </div>
-                <button type="submit" class="btn btn-primary">Publish Post</button>
-            </form>
+        <div class="container" style="text-align: center; max-width: 600px;">
+            <h2 class="section-title">Want to Add a Post?</h2>
+            <p style="color: #94a3b8; margin-bottom: 1.5rem;">
+                Posts are managed as Markdown files on GitHub. To add a new post,
+                create a <code>.md</code> file in the <code>posts/</code> folder and
+                update <code>posts/index.json</code>.
+            </p>
+            <a href="https://github.com/jpvaishnav" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                Open GitHub Repo
+            </a>
         </div>
     </section>
 
