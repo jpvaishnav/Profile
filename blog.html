@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog — Learning Notes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="nav-logo">&lt;JayPrakash /&gt;</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog Header -->
+    <header class="blog-header">
+        <div class="container">
+            <h1>Learning Notes &amp; Blog</h1>
+            <p>Technical learnings, concepts, and insights from my journey in tech.</p>
+        </div>
+    </header>
+
+    <!-- Blog Filter -->
+    <section class="blog-filter">
+        <div class="container">
+            <div class="filter-tags" id="filterTags">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="concepts">Concepts</button>
+                <button class="filter-btn" data-filter="tutorials">Tutorials</button>
+                <button class="filter-btn" data-filter="til">TIL</button>
+                <button class="filter-btn" data-filter="devops">DevOps</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="section">
+        <div class="container">
+            <div class="blog-grid" id="blogGrid">
+                <!-- Posts are loaded from JS -->
+            </div>
+            <div class="blog-empty" id="blogEmpty" style="display:none;">
+                <p>No posts found for this category.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Post Section (for writing new posts via the UI) -->
+    <section class="section section-alt" id="newPost">
+        <div class="container">
+            <h2 class="section-title">Write a New Post</h2>
+            <form class="post-form" id="postForm">
+                <div class="form-group">
+                    <label for="postTitle">Title</label>
+                    <input type="text" id="postTitle" required maxlength="200" placeholder="e.g., Understanding Async/Await in C#">
+                </div>
+                <div class="form-group">
+                    <label for="postCategory">Category</label>
+                    <select id="postCategory" required>
+                        <option value="concepts">Concepts</option>
+                        <option value="tutorials">Tutorials</option>
+                        <option value="til">TIL (Today I Learned)</option>
+                        <option value="devops">DevOps</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="postContent">Content (Markdown supported)</label>
+                    <textarea id="postContent" rows="12" required placeholder="Write your learning notes here...&#10;&#10;You can use **bold**, *italic*, `code`, and ```code blocks```."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="postTags">Tags (comma separated)</label>
+                    <input type="text" id="postTags" placeholder="e.g., csharp, async, dotnet" maxlength="500">
+                </div>
+                <button type="submit" class="btn btn-primary">Publish Post</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Jay Prakash. Built with passion and plain HTML/CSS/JS. Built by Claude.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
