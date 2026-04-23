@@ -23,8 +23,8 @@
         "tags": ["docker", "dotnet", "devops"],
         "excerpt": "Learn how to containerize a .NET application with Docker using multi-stage builds for optimal image size."
     },
-      {
-        "slug": "ai-usage.md",
+    {
+        "slug": "ai-usage",
         "title": "AI AGENT USAGE FOR DEVELOPMENT",
         "category": "experience",
         "date": "2026-04-23",
