@@ -22,5 +22,13 @@
         "date": "2026-03-18",
         "tags": ["docker", "dotnet", "devops"],
         "excerpt": "Learn how to containerize a .NET application with Docker using multi-stage builds for optimal image size."
+    },
+      {
+        "slug": "ai-usage.md",
+        "title": "AI AGENT USAGE FOR DEVELOPMENT",
+        "category": "experience",
+        "date": "2026-04-23",
+        "tags": ["agent", "CLI"],
+        "excerpt": "Sharing different ways to work with Agent"
     }
 ]
