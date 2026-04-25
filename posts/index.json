@@ -22,5 +22,13 @@
         "date": "2026-04-25",
         "tags": ["CDN", "TimeOut"],
         "excerpt": "How we solved CDN timeout for an endpoint"
+    },
+    {
+        "slug": "parallelism-test-infra",
+        "title": "Parallelims in a test infra",
+        "category": "learnings",
+        "date": "2026-04-25",
+        "tags": ["Parallel", "Tests"],
+        "excerpt": "Parallelims in a test infra"
     }
 ]
