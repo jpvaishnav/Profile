@@ -1,29 +1,5 @@
 [
     {
-        "slug": "async-await-csharp",
-        "title": "Understanding Async/Await in C#",
-        "category": "concepts",
-        "date": "2026-03-20",
-        "tags": ["csharp", "async", "dotnet"],
-        "excerpt": "A deep dive into async/await patterns in C# — why they matter, how to use them correctly, and common pitfalls to avoid."
-    },
-    {
-        "slug": "docker-basics-dotnet",
-        "title": "Docker Basics: Containerize Your .NET App",
-        "category": "tutorials",
-        "date": "2026-03-18",
-        "tags": ["docker", "dotnet", "devops"],
-        "excerpt": "Learn how to containerize a .NET application with Docker using multi-stage builds for optimal image size."
-    },
-    {
-        "slug": "test_post.md",
-        "title": "Docker Basics: Containerize Your .NET App",
-        "category": "tutorials",
-        "date": "2026-03-18",
-        "tags": ["docker", "dotnet", "devops"],
-        "excerpt": "Learn how to containerize a .NET application with Docker using multi-stage builds for optimal image size."
-    },
-    {
         "slug": "ai-usage",
         "title": "AI AGENT USAGE FOR DEVELOPMENT",
         "category": "experience",
@@ -38,5 +14,13 @@
         "date": "2026-04-25",
         "tags": ["agent", "MCP", "SKILLS"],
         "excerpt": "Sharing different ways to sharpen Agent"
+    },
+    {
+        "slug": "solving-timeout",
+        "title": "CDN is timing out while waiting for origin",
+        "category": "problem",
+        "date": "2026-04-25",
+        "tags": ["CDN", "TimeOut"],
+        "excerpt": "How we solved CDN timeout for an endpoint"
     }
 ]
