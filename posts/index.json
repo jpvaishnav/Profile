@@ -30,5 +30,13 @@
         "date": "2026-04-25",
         "tags": ["Parallel", "Tests"],
         "excerpt": "Parallelims in a test infra"
+    },
+    {
+        "slug": "error-visibility-for-agents",
+        "title": "Errors for agents",
+        "category": "learnings",
+        "date": "2026-04-25",
+        "tags": ["Errors", "Agent"],
+        "excerpt": "Error visibility for AI agents"
     }
 ]
