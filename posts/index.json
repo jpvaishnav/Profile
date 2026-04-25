@@ -30,5 +30,13 @@
         "date": "2026-04-23",
         "tags": ["agent", "CLI"],
         "excerpt": "Sharing different ways to work with Agent"
+    },
+    {
+        "slug": "AI-TOOLS",
+        "title": "Different tools to sharpen agent",
+        "category": "experience",
+        "date": "2026-04-25",
+        "tags": ["agent", "MCP", "SKILLS"],
+        "excerpt": "Sharing different ways to sharpen Agent"
     }
 ]
