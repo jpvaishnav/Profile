@@ -38,5 +38,13 @@
         "date": "2026-04-25",
         "tags": ["Errors", "Agent"],
         "excerpt": "Error visibility for AI agents"
+    },
+    {
+        "slug": "a11y-testing",
+        "title": "a11y",
+        "category": "learnings",
+        "date": "2026-04-26",
+        "tags": ["a11y"],
+        "excerpt": "a11y"
     }
 ]
