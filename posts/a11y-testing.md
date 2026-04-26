@@ -1,0 +1,5 @@
+Libraries/Packages-
+1. Axe Core: A library by dequeue university which provides set of rules as per WCAG(Web Content Accessibility Guidelines) and run these rules to detect accessibility violations in given frontend html.
+This is direct way to integrate accessibility testing in a system. onece the library is loaded in the browser, it can be executed in console using axe.run() with set of rules, exempted rules, etc. axe.run() produces an array in result which covers details about each violation at granula level like violation name, description, id, wcag id, helpUrl(that is an axe core help url providing instructions to fix - this could be useful for AI agents). This result array can be processed further and converted into human/machine readable format for fixing the violations.
+- Note: [Not sure if this library works for non-web applications as well]
+2. CICD libraries like Playwright provides accessibility testing through their default methods. Though internally they also invoke axe core version of respective language(Java, dotnet)
