@@ -1,0 +1,5 @@
+- Network layer is a client facing service, and changes in this layer can impact entire stack of system
+- I have seen both monolith and micro service system going down when the top networking layer is down.
+- It could happen when you are applying a security patch to strength your network layer, when you are modifying inbound or outbound policies, when the service is updating any IP based rule
+- Now given that AI agents are contributing more to codebase, and they are not aware of system level context, such vulnerabilities could be exploited by agents causing broad scale systems to go down
+- To prevent this, a system level review and graceful rollout would be helpful when making changes at network layer
